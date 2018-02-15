@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<component name="ColorSample" extends="Scene" >
+	<script type="text/brightscript" uri="pkg:/components/ColorSample.brs" />
+
+	<children>
+		<!-- Creates rectangle node for border color -->
+		<Rectangle
+			id="borderColor"
+			color="0x000000"
+			width="1280"
+			height="720" >
+			
+			<!-- Creates rectangle node for background color -->
+			<Rectangle
+				id="backgroundColor"
+				width="1022"
+				height="578" 
+				translation="[128,70]" >
+
+				<!-- Creates Color Name label -->
+				<Label
+					id="colorName"
+					color="0xFFFFFFFF"
+					width="1022"
+					height="578"
+					horizAlign="center"
+					vertAlign="center"
+					font="font:LargeBoldSystemFont"
+					wrap="true" />
+			</Rectangle>
+		</Rectangle>
+	</children>
+</component>

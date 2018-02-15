@@ -1,0 +1,25 @@
+#
+# Roku Channel Manifest File
+# Full spec at https://sdkdocs.roku.com/display/sdkdoc/Roku+Channel+Manifest
+#
+
+# Channel Details
+title=Color Sample
+screensaver_title=Color Sample
+major_version=1
+minor_version=0
+build_version=0
+
+# Channel Assets
+#### Image sizes are | HD: 336x210px | SD: 246x140px
+#mm_icon_focus_hd=pkg:/images/channel-icon_hd.png
+ 
+# Splash Screen + Loading Screen Artwork
+#### Image sizes are FHD: 1920x1080px | HD: 1280x720px | SD: 720x480px
+#splash_screen_hd=pkg:/images/splash-screen_hd.jpg
+#splash_screen_fhd=pkg:/images/splash-screen_fhd.jpg
+#splash_color=#000000
+#splash_min_time=1500
+
+# Resolution
+ui_resolutions=hd
